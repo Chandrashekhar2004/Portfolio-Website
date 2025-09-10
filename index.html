@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="glass-header">
+        <div class="container">
+            <div class="logo">ChandraShekhar Bhatt</div>
+
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <!-- Navigation Menu -->
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skill</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="about-section" id="about">
+        <div class="about-container">
+            <div class="about-img">
+                <img src="assets/profile.jpg" alt="Profile Image" />
+            </div>
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    I'm <span>ChandraShekhar Bhatt</span>, a passionate Frontend Web Developer with a love for turning
+                    beautiful
+                    designs into interactive websites.
+                    I specialize in HTML, CSS, JavaScript, and I'm constantly learning modern frameworks like React.
+                </p>
+                <p>
+                    With a clean design sense and strong focus on user experience, I create websites that not only look
+                    great but also perform well.
+                </p>
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="assets/Chandrashekhar resume.pdf" download="assets/Chandrashekhar resume.pdf"
+                    class="resume-btn">Download
+                    Resume</a>
+
+
+            </div>
+        </div>
+    </section>
+    <hr class="separator-line" />
+
+
+    <section class="skills-section" id="skills">
+        <div class="skills-container">
+            <h2>My Skills</h2>
+
+            <div class="skills-grid">
+
+                <!-- Frontend Skills -->
+                <div class="skill-box">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3 / SCSS</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Tailwind CSS</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+
+                <!-- Backend / DB Skills -->
+                <div class="skill-box">
+                    <h3>Backend & DB</h3>
+                    <ul>
+                        <li>Node.js (basic)</li>
+                        <li>Express.js (basic)</li>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                    </ul>
+                </div>
+
+                <!-- CS Fundamentals -->
+                <div class="skill-box">
+                    <h3>CS Fundamentals</h3>
+                    <ul>
+                        <li>Data Structures</li>
+                        <li>Algorithms</li>
+                        <li>OOPS Concepts</li>
+                        <li>DBMS</li>
+                        <li>Operating System</li>
+                        <li>Computer Networks</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Separator Line -->
+    <hr class="separator-line" />
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="projects-container">
+            <h2>My Projects</h2>
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="assets/Generic Medicine.png" alt="Project 1" />
+                    <h3>Generic Medicine Finder </h3>
+                    <p>A web app that helps users quickly search branded medicines and find their affordable generic
+                        alternatives. Built with HTML, CSS, and JavaScript, featuring live search, suggestions, theme
+                        toggle, and a clean UI for better usability.</p>
+                    <a href="https://stately-cuchufli-088488.netlify.app/" target="_blank">Live Demo</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="assets/weather app.png" alt="Project 2" />
+                    <h3>Weather App</h3>
+                    <p>Live weather forecast web app using OpenWeather API and modern UI with JavaScript DOM
+                        manipulation.</p>
+                    <a href="https://jovial-torte-861f3d.netlify.app/" target="_blank">Live Demo</a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="assets/to-do.png" alt="Project 3" />
+                    <h3>Todo List</h3>
+                    <p>Simple and clean Todo app with add/remove/update features. Made with vanilla JavaScript and
+                        localStorage.</p>
+                    <a href="https://cheerful-daifuku-47ace8.netlify.app/" target="_blank">Live Demo</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <hr class="separator-line" />
+
+
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <p>Have a project in mind or just want to say hi? Feel free to message me!</p>
+
+            <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="55cf44aa-b823-40f6-8f8b-b1a848b6165d">
+                <input type="text" name="from_name" placeholder="Your Name" required>
+                <input type="email" name="reply_to" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" name="message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/chandrashekhar-bhatt-133b79338" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Chandrashekhar2004" target="_blank">GitHub</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=bhattchandu098@gmail.com"
+                    target="_blank">Email</a>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 | All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
